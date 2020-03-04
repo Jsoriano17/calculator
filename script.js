@@ -19,9 +19,12 @@ const divide = document.getElementById('divide')
 const equal = document.getElementById('equal')
 const clear = document.getElementById('clear')
 const answer = document.getElementById('answer')
+const display = document.getElementById('display')
 const addReducer = (accumulator, currentValue) => accumulator + currentValue;
 let number = []
 let total = []
+
+
 
 //operator functions
 
@@ -278,5 +281,3 @@ function checkOpp() {
         answer.innerHTML = total
       }
 }
-
-
